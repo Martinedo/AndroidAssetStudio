@@ -28,3 +28,11 @@ Once dependencies are installed, run with `gulp`:
 ## Related (third-party) projects
 
 - [Android Asset Studio Desktop Apps](https://androidassetstudio.codeplex.com/)
+
+## Run in docker
+
+build image
+`docker build -t androidassetstudio .`
+
+run container
+`docker run -p 3000:3000 -d androidassetstudio`
